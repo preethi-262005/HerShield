@@ -1,0 +1,16 @@
+.hover-card {
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition for transform and shadow */
+}
+
+.hover-card:hover {
+    transform: scale(1.05); /* Scale the card slightly on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow effect on hover */
+}
+button{
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+button:hover{
+    transform: scale(1.05); /* Scale the card slightly on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow effect on hover */
+
+}
